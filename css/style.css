@@ -1,0 +1,388 @@
+*{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+/*------------------------GENERAL------------------------*/
+.nav-link{
+    font-weight: 400;
+    font-size: 17.7592px;
+    line-height: 27px;
+}
+
+.active{
+    background: #E20303;
+    color: white !important;
+    border-radius: 2px;
+}
+
+.botoncito{
+    background: #FFFFFF;
+    border-radius: 12px;
+    color: #5F0000;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.botoncitoActivo{
+    background-color: #E20303;
+    color: #FFFFFF;
+}
+
+/* ------------------------INDEX------------------------ */
+.backgrundIndex{
+    height: 100%;
+    background-image: url(../assets/mapa.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top ;
+}
+
+.backgrundIndex::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:  linear-gradient(180deg, #070707 3.75%, rgba(7, 7, 7, 0.949081) 18.59%, rgba(6, 6, 6, 0.853495) 33.88%, rgba(0, 0, 0, 0) 74.36%);
+    z-index: -1;
+}
+
+/* Card Index */
+.cardIndex{
+    padding: 3rem;
+    background: rgba(3, 3, 3, 0.65);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(7px);
+    border-radius: 6.04997px;
+    margin-bottom: 100px;
+}
+
+.card-titlee{
+    color: #FFFFFF;
+    font-size: 90.9495px;
+    line-height: 86px;
+    margin-bottom: 35px;
+    font-weight: 700;
+}
+
+.card-text-index{
+    color: #FFFFFF;
+    font-size: 28.7687px;
+    line-height: 43px;    
+    font-weight: 400;
+}
+
+.cardBtnIndex{
+    background: linear-gradient(271.88deg, #9C0909 21.88%, #FF0000 114.79%);
+    box-shadow: 20.6176px 28.8646px 58.7601px 4.12352px rgba(255, 0, 0, 0.3);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18.5558px;
+}
+/* Card Index */
+
+/*------------------------ MARKETPLACE------------------------ */
+.rojo{
+    color: #E20303;
+}
+
+.titleMarket{
+    font-weight: 700;
+    font-size: 71.6353px;
+    line-height: 115px;
+}
+
+.subTitleMarket {
+    font-weight: 400;
+    font-size: 28.7687px;
+    line-height: 37px;
+}
+
+@media (max-width: 600px) {
+    .titleMarket{
+        font-size: 40px;
+    }
+    
+    .subTitleMarket {
+        font-size: 20px;
+    }
+}
+
+.backgrundMarketplace{
+    background-image: url(../assets/bgMarketplace.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.backgrundMarketplace::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(7, 7, 7, 0.9491);
+    z-index: -1;
+    position: fixed;
+}
+
+.tarjeta1{
+    background: url(../assets/card1.svg);
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+    width: 574.34px;
+    height: 324.88px;
+}
+
+.cardMarketAnimation:hover{
+    transform: scale(1.1);
+    transition: all linear 200ms;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.3);
+    cursor: pointer;
+}
+
+.cardMarket{
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 31.6%, rgba(0, 0, 0, 0.6) 73.45%);
+}
+
+.card-title-market{
+    font-weight: 800;
+    font-size: 45.4795px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.card-text-market{
+    font-weight: 400;
+    font-size: 17.6865px;
+    line-height: 144%;
+    color: #FFFFFF;
+}
+
+.btn-market{
+    width: 151.77px;
+    height: 46.02px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1.26332px solid #FFFFFF;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 20.2131px;
+    color: #FFFFFF;
+}
+
+/*------------------------CONTACT------------------------ */
+.bgContact{
+background: url(../assets/bgContact.svg); 
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-position: top;
+}
+
+.bgContact::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(7, 7, 7, 0.9491);
+    z-index: -1;
+    position: fixed;   
+}
+
+.titleContact{    
+    font-weight: 500;
+    font-size: 63.2297px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.textContact{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 25.6608px;
+    line-height: 30px;
+}
+
+.contactUs{
+    font-weight: 700;
+    font-size: 51.1463px;
+    line-height: 68px;
+}
+
+
+/*------------------------APPLY------------------------ */
+.bgApply{
+    height: 100%;
+    background: url(../assets/bgApply.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top ;
+}
+
+.bgApply::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0) -1.37%, rgba(15, 15, 15, 0.634267) 26.68%, rgba(9, 9, 9, 0.921093) 67.5%, #070707 89.36%);
+    z-index: -1;
+    transform: rotate(-180deg);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(7px);
+}
+
+
+.titleAplly{
+    font-weight: 700;
+    font-size: 83.8523px;
+    line-height: 100px;
+    /* or 90px */
+    color: #FFFFFF;
+}
+
+
+.textAplly{
+    font-weight: 400;
+    font-size: 27.7188px;
+    line-height: 117%;
+    /* or 32px */
+    color: #FFFFFF;
+}
+
+
+/*------------------------ABOUT US------------------------ */
+.aboutText{
+    font-weight: 400;
+    font-size: 27.7188px;
+    line-height: 125%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bgAbout{
+    height: 100%;
+    background: url(../assets/bgAboutUs.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top ;
+}
+
+.bgAbout::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: rotate(-180deg);
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0) -1.37%, rgba(15, 15, 15, 0.634267) 25.11%, #070707 97.27%);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(7px);
+    transform: rotate(-180deg);
+}
+
+.teamAbout{
+    background: rgba(3, 3, 3, 0.65);
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(7px);
+
+    border-radius: 28px;
+}
+
+.imageAbout{
+    width: 200px;
+    height: 200px;
+}
+
+.textName{
+    font-weight: 400;
+    font-size: 25.1165px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+
+.textPosition{
+    font-weight: 400;
+    font-size: 16.3723px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+
+/* Botones */
+
+.btnTwitter{
+    background: linear-gradient(271.88deg, #063F57 19.73%, #0C94CE 114.79%);
+    box-shadow: 22.6793px 31.7511px 64.6361px 4.53587px rgba(12, 148, 206, 0.3);
+    border-radius: 11.3397px;
+    font-weight: 500;
+    font-size: 22.0131px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 253px;
+    height: 63.8px;
+    border: none;
+}
+
+.btnInstagram{
+    background: linear-gradient(271.88deg, #9C0996 0%, #DB0436 114.79%);
+    box-shadow: 22.6793px 31.7511px 64.6361px 4.53587px rgba(203, 4, 78, 0.35);
+    border-radius: 11.3397px;
+    font-weight: 500;
+    font-size: 22.0131px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 253px;
+    height: 63.8px;
+    border: none;
+}
+
+.btnYoutube{
+    background: linear-gradient(271.88deg, #9C0909 19.73%, #E20303 114.79%);
+    box-shadow: 22.6793px 31.7511px 64.6361px 4.53587px rgba(207, 4, 4, 0.35);
+    border-radius: 11.3397px;
+    font-weight: 500;
+    font-size: 22.0131px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 253px;
+    height: 63.8px;
+    border: none;
+}
+
+.btnDiscord{
+    color: #FFFFFF;
+    width: 253px;
+    height: 63.8px;
+    background: linear-gradient(271.88deg, #063F57 19.73%, #0C94CE 114.79%);
+    box-shadow: 22.6793px 31.7511px 64.6361px 4.53587px rgba(12, 148, 206, 0.3);
+    border-radius: 11.3397px;
+    border: none;
+}
